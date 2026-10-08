@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#contenedor {
+    width: 95%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+   
+}
+
+#cabecera {
+    background-color: beige;
+    padding: 10px 0;
+    height: 100px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo {
+    width: 35%;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+#titulo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#titulo h2 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#menu {
+    width: 65%;
+}
+
+#menu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#menu a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#contenido {
+    margin: 20px 0;
+    padding: 25px;
+    border: 1px solid #666;
+}
+
+#logo {
+    width: 220px;
+    margin-bottom: 25px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+.articulo {
+    margin-bottom: 25px;
+}
+
+.articulo h3 {
+    color: #0000ff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.articulo ol {
+    margin-left: 25px;
+}
+
+.articulo li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+}
